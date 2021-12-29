@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 8,
+      "firstname": "Preethika",
+      "lastname": "chandrasekar",
+      "email": "preethika@gmail.com",
+      "mobile": "789456123",
+      "salary": "54000"
+    },
+    {
+      "id": 9,
+      "firstname": "Vipin",
+      "lastname": "Kiruba",
+      "email": "vipin@gmail.com",
+      "mobile": "9876543210",
+      "salary": "54000"
+    },
+    {
+      "id": 10,
+      "firstname": "Yugan",
+      "lastname": "M",
+      "email": "yugan@gmail.com",
+      "mobile": "9876543120",
+      "salary": "54000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "admin",
+      "mobile": "admin",
+      "email": "admin",
+      "password": "admin",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

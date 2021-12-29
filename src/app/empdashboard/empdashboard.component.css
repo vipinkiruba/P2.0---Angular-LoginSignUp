@@ -1,0 +1,46 @@
+.custom-nav-div{
+    padding-bottom: 12px;
+    border-bottom: solid 2px #000000;
+}
+.vpntech {
+    text-shadow: 9px 8px 3px #666666;
+    font-family: Arial;
+    font-style: oblique;
+    color: #000000;
+    text-decoration: none;
+  }
+.btnadd {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 1px;
+    -webkit-box-shadow: 11px 11px 5px #666666;
+    -moz-box-shadow: 11px 11px 5px #666666;
+    box-shadow: 11px 11px 5px #666666;
+    font-family: Arial;
+    font-style: oblique;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #9fa3a5 2px;
+    text-decoration: none;
+    background-color: cadetblue
+  }
+  
+  .btnadd:hover {
+    background: #ebebeb;
+    background-image: -webkit-linear-gradient(top, #ebebeb, #dbdbdb);
+    background-image: -moz-linear-gradient(top, #ebebeb, #dbdbdb);
+    background-image: -ms-linear-gradient(top, #ebebeb, #dbdbdb);
+    background-image: -o-linear-gradient(top, #ebebeb, #dbdbdb);
+    background-image: linear-gradient(to bottom, #ebebeb, #dbdbdb);
+    text-decoration: none;
+  }
+
+  .btnedit{
+     background-color:  rgb(95, 118, 160)
+  }
+  .btndelete{
+      background-color: rgb(224, 128, 111);
+      margin-left: 10px;
+  }
+

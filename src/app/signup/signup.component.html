@@ -1,0 +1,43 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<nav class="navbar" >
+  <div class="container-fluid custom-nav-div" >
+      <h3 class="vpntech"><strong>Vipin Technologies</strong></h3>
+      
+  </div>
+  </nav>
+  
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+            <h3 class="vpntech"><strong>Register</strong></h3>
+    </div>
+
+    <!-- Login Form -->
+    <form [formGroup]="signupform" (ngSubmit)="registered()">
+      <input formControlName="fullname" type="text" id="login" class="fadeIn second" name="login" placeholder="Full Name">
+      <input formControlName="mobile" type="text" id="login" class="fadeIn second" name="login" placeholder="Mobile">
+      <input formControlName="email" type="text" id="login" class="fadeIn second" name="login" placeholder="Email">
+      <input formControlName="password" type="text" id="login" class="fadeIn second" name="login" placeholder="Password">
+      
+      <button type="submit" id="cancel" class="fadeIn fourth btnadd btnedit" data-dismiss="modal">Sign Up</button>
+    </form>
+
+    
+
+  </div>
+</div>
+
+<div>
+  <div class="fadeIn first custombottom">
+      <h6 class="vpntech custombottom"><strong>Already an User</strong></h6>
+  </div>
+  <button routerLink="/login"  id="cancel" class="btnadd btnedit" data-dismiss="modal">Login</button>
+</div>
